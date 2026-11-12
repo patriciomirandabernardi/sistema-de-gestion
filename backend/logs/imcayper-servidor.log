@@ -1,0 +1,1208 @@
+=== Inicio vie 16/10/2026 14:02:54,61 === 
+INFO:     Started server process [11616]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56823 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56826 - "GET /catalogo HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56828 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56830 - "GET /ordenes-compra/ HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:52893 - "GET /assets/index-D4yERfvJ.js HTTP/1.1" 200 OK
+=== Detenido vie 16/10/2026 14:07:02,82 (codigo 1) === 
+=== Inicio vie 16/10/2026 14:07:04,18 === 
+INFO:     Started server process [4012]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     127.0.0.1:61797 - "GET / HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61806 - "GET / HTTP/1.1" 200 OK
+=== Inicio vie 16/10/2026 14:09:32,54 === 
+INFO:     Started server process [6492]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     127.0.0.1:58112 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58114 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64517 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64517 - "GET /assets/index-D4yERfvJ.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64517 - "GET /assets/index-D-Gk75uN.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64517 - "GET /favicon.svg HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58681 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58681 - "OPTIONS /pedidos/pendientes-aprobacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51145 - "OPTIONS /pedidos/pendientes-aprobacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51145 - "GET /pedidos/pendientes-aprobacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58681 - "GET /pedidos/pendientes-aprobacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62621 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62621 - "OPTIONS /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56579 - "OPTIONS /pedidos/mis-pedidos HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55607 - "OPTIONS /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59319 - "OPTIONS /pedidos/mis-pedidos HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56579 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55607 - "GET /pedidos/mis-pedidos HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59319 - "GET /pedidos/mis-pedidos HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55607 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63979 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51139 - "OPTIONS /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59395 - "OPTIONS /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63979 - "OPTIONS /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65055 - "OPTIONS /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57939 - "OPTIONS /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51139 - "OPTIONS /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59395 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65055 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63979 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62277 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51139 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59395 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63979 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63979 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63979 - "OPTIONS /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59395 - "OPTIONS /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62277 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63979 - "GET /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59395 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59395 - "GET /ordenes-compra/ HTTP/1.1" 200 OK
+=== Inicio Fri 10/16/2026 14:52:12.02 === 
+INFO:     Started server process [6388]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     140.191.1.205:61353 - "GET / HTTP/1.1" 200 OK
+INFO:     140.191.1.205:61353 - "GET /assets/index-D4yERfvJ.js HTTP/1.1" 200 OK
+INFO:     140.191.1.205:61354 - "GET /assets/index-D-Gk75uN.css HTTP/1.1" 200 OK
+INFO:     140.191.1.205:54716 - "GET /favicon.svg HTTP/1.1" 200 OK
+INFO:     140.191.1.205:61355 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.205:61355 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.205:61356 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.205:61358 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.205:61357 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6388]
+=== Inicio Mon 10/19/2026  9:44:21.47 === 
+INFO:     Started server process [6196]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+=== Inicio Fri 10/23/2026  3:30:11.45 === 
+INFO:     Started server process [3564]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     140.191.1.6:50149 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50149 - "OPTIONS /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50150 - "OPTIONS /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50151 - "OPTIONS /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50152 - "OPTIONS /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50153 - "OPTIONS /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50154 - "OPTIONS /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50149 - "OPTIONS /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50150 - "OPTIONS /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50151 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50152 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50154 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50153 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50149 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50150 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50151 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50152 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50158 - "OPTIONS /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50160 - "OPTIONS /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50159 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50161 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50158 - "GET /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.6:50161 - "GET /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3564]
+=== Inicio Mon 10/26/2026 11:12:05.32 === 
+INFO:     Started server process [6444]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     140.191.1.137:62485 - "GET / HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62485 - "GET /assets/index-oPll0eFg.js HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54964 - "GET /assets/index-D2tUACoE.css HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62485 - "GET /favicon.svg HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51509 - "POST /token HTTP/1.1" 401 Unauthorized
+INFO:     140.191.1.137:52384 - "POST /token HTTP/1.1" 401 Unauthorized
+INFO:     140.191.1.137:63948 - "POST /token HTTP/1.1" 401 Unauthorized
+INFO:     140.191.1.137:54904 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54904 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61507 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63342 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53346 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57036 - "GET /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55726 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57036 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55726 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55120 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58121 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+=== Detenido Mon 10/26/2026 12:49:03.75 (codigo -1) === 
+=== Inicio Mon 10/26/2026 12:49:03.86 === 
+INFO:     Started server process [12824]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+[migracion_usuarios] Backup creado: ./panol.backup-20261026-124905.db
+[migracion_usuarios] admin legajo 862 -> usuario '862'
+[migracion_usuarios] gerencia legajo 1 -> usuario 'Miguel'
+[migracion_usuarios] supervisor legajo 250 -> usuario '250'
+[migracion_usuarios] supervisor legajo 511 -> usuario '511'
+[migracion_usuarios] supervisor legajo 537 -> usuario '537'
+[migracion_usuarios] supervisor legajo 540 -> usuario '540'
+[migracion_usuarios] supervisor legajo 559 -> usuario '559'
+[migracion_usuarios] supervisor legajo 686 -> usuario '686'
+INFO:     140.191.1.137:63758 - "GET /gastos/reporte?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63758 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53003 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58403 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51411 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51411 - "POST /token HTTP/1.1" 401 Unauthorized
+INFO:     140.191.1.137:52775 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59570 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52775 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49421 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55252 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55252 - "GET /gastos/reporte?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54297 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58040 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55636 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63881 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63881 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52154 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49415 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56946 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64402 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64402 - "GET /gastos/reporte?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64402 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56833 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52425 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55072 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55072 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52425 - "GET /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52425 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56833 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55072 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64402 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64402 - "GET /gastos/reporte?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56833 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64402 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55072 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52425 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55072 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52425 - "GET /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52425 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55072 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64402 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56833 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56833 - "GET /gastos/reporte?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56833 - "GET /movimientos/salidas?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58928 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57557 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57041 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62829 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62829 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51747 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56097 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57225 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60052 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60052 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58483 - "POST /compras-directas/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58483 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56471 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59756 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53968 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58251 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59756 - "GET /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53968 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53968 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59756 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50293 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54670 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54670 - "GET /gastos/reporte?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60374 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52277 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52061 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56573 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58241 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58241 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58382 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57293 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52215 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65525 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63483 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61873 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51830 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58979 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58979 - "GET /gastos/reporte?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58979 - "GET /movimientos/salidas?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58979 - "GET /movimientos/salidas?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61278 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52289 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52694 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64417 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61278 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57705 - "GET /movimientos/salidas?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62381 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57705 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64606 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52136 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52136 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52136 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57705 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52136 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64606 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62381 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64606 - "GET /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62381 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62381 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64606 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57705 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52136 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52136 - "GET /gastos/reporte?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52136 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64606 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57705 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62381 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65081 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65081 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50814 - "GET /pedidos/mis-pedidos HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62591 - "GET /supervisor HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53414 - "GET /assets/index-D2tUACoE.css HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:61418 - "GET /assets/index-oPll0eFg.js HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:61418 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59591 - "GET /pedidos/mis-pedidos HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59687 - "GET /supervisor HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51156 - "GET /assets/index-C4rm2R8J.css HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59687 - "GET /assets/index-BKfj4C4g.js HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59687 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51156 - "GET /pedidos/mis-pedidos HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51156 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51156 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62023 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60680 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55656 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56416 - "GET /usuarios/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52949 - "GET /usuarios/me HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12824]
+=== Inicio Mon 10/26/2026 13:42:54.92 === 
+INFO:     Started server process [4768]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+[migracion_usuarios] Columna usuarios.activo agregada
+INFO:     140.191.1.137:57941 - "GET /usuarios HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50324 - "GET /usuarios/me HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57941 - "GET /usuarios/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51388 - "GET /usuarios HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:51373 - "GET /assets/index-C4rm2R8J.css HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:51388 - "GET /assets/index-BKfj4C4g.js HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:51373 - "GET /favicon.svg HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55583 - "GET /usuarios/me HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51388 - "GET /usuarios/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60734 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60860 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54932 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51404 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59937 - "GET /gastos/reporte?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59937 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56749 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52608 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61008 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61008 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57911 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55942 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65036 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59406 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65036 - "GET /usuarios/me HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59406 - "GET /usuarios/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50067 - "GET /login HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57933 - "GET /usuarios HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52888 - "GET /assets/index-BEcztBEq.css HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57933 - "GET /assets/index-BanpP0vB.js HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52888 - "GET /usuarios/me HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57933 - "GET /usuarios/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59463 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51428 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61200 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59989 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49449 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61322 - "GET /movimientos/salidas?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49969 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61322 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64796 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53229 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53229 - "GET /gastos/reporte?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53229 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64796 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49969 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61322 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55215 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55215 - "GET /pedidos/pendientes-aprobacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54104 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54104 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60522 - "GET /pedidos/mis-pedidos HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62710 - "GET /login HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59724 - "GET /assets/index-BEcztBEq.css HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:62710 - "GET /assets/index-BanpP0vB.js HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:57081 - "GET /login HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:62157 - "GET /assets/index-BEcztBEq.css HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:57081 - "GET /assets/index-BanpP0vB.js HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:57081 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57081 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62157 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53421 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51924 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65242 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65242 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53829 - "GET /pedidos/mis-pedidos HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54068 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54068 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65508 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52432 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51679 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51679 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4768]
+=== Inicio Tue 10/27/2026  8:21:01.24 === 
+INFO:     Started server process [6292]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     140.191.1.137:65194 - "GET /login HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:61096 - "GET /assets/index-BEcztBEq.css HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:65194 - "GET /assets/index-BanpP0vB.js HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:65194 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65194 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61096 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59817 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56032 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51826 - "GET /gastos/reporte?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57856 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63547 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61781 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61754 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57856 - "GET /usuarios/me HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61754 - "GET /usuarios/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57856 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61754 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63547 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61781 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63547 - "GET /usuarios/me HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61781 - "GET /usuarios/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52173 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62326 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62142 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63531 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63531 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6292]
+=== Inicio Wed 10/28/2026  7:58:37.16 === 
+INFO:     Started server process [9480]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     140.191.1.205:53091 - "GET /login HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     140.191.1.205:53091 - "GET /login HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55599 - "GET /login HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:55599 - "GET /assets/index-BanpP0vB.js HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:60648 - "GET /assets/index-BEcztBEq.css HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.205:53118 - "GET /login HTTP/1.1" 200 OK
+INFO:     140.191.1.205:53118 - "GET /assets/index-BanpP0vB.js HTTP/1.1" 200 OK
+INFO:     140.191.1.205:53119 - "GET /assets/index-BEcztBEq.css HTTP/1.1" 200 OK
+INFO:     140.191.1.205:53122 - "GET /apple-touch-icon-precomposed.png HTTP/1.1" 200 OK
+INFO:     140.191.1.205:53123 - "GET /login HTTP/1.1" 200 OK
+INFO:     140.191.1.205:53124 - "GET /apple-touch-icon.png HTTP/1.1" 200 OK
+INFO:     140.191.1.205:53125 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     140.191.1.205:53126 - "GET /favicon.svg HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     140.191.1.150:49942 - "GET /login HTTP/1.1" 200 OK
+INFO:     140.191.1.150:49942 - "GET /assets/index-BanpP0vB.js HTTP/1.1" 200 OK
+INFO:     140.191.1.150:49943 - "GET /assets/index-BEcztBEq.css HTTP/1.1" 200 OK
+INFO:     140.191.1.150:49942 - "GET /favicon.svg HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57279 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57279 - "GET /pedidos/pendientes-aprobacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57279 - "GET /gastos/reporte?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57279 - "GET /movimientos/salidas?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58434 - "GET /pedidos/pendientes-aprobacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58434 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58434 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54625 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58353 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56902 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51075 - "GET /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62981 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51075 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62981 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52401 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51932 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51932 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64919 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53524 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57186 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55743 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64919 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54400 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61746 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54895 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64224 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55204 - "GET /login HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55553 - "GET /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49546 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55553 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49546 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55673 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61530 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61530 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64848 - "GET /catalogo HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59926 - "GET /assets/index-C69s68U3.css HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64848 - "GET /assets/index-CkgsNxat.js HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64848 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57599 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51027 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51512 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54691 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51512 - "GET /usuarios/me HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54691 - "GET /usuarios/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61149 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64088 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52925 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60165 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62877 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58349 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58349 - "GET /pedidos/pendientes-aprobacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58349 - "GET /gastos/reporte?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64611 - "GET /movimientos/salidas?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51184 - "GET /pedidos/pendientes-aprobacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51184 - "GET /gastos/reporte?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50897 - "GET /pedidos/pendientes-aprobacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61143 - "POST /token HTTP/1.1" 401 Unauthorized
+INFO:     140.191.1.137:62579 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62579 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55964 - "GET /pedidos/mis-pedidos HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58046 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58046 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55603 - "GET /pedidos/mis-pedidos HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64780 - "GET /supervisor HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54588 - "GET /assets/index-CS-zWDyc.css HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64780 - "GET /assets/index-BIHG_2Ys.js HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64780 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54588 - "GET /pedidos/mis-pedidos HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62679 - "GET /supervisor HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51303 - "GET /assets/index-Ql-jR99M.css HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62679 - "GET /assets/index-CBkm_c1J.js HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62679 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51303 - "GET /pedidos/mis-pedidos HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58673 - "POST /pedidos/bulk HTTP/1.1" 405 Method Not Allowed
+=== Detenido Wed 10/28/2026 11:42:49.13 (codigo -1) === 
+=== Inicio Wed 10/28/2026 11:42:49.50 === 
+INFO:     Started server process [1588]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+[migraciones] Columna pedidos_compra.codigo_solicitud agregada
+INFO:     140.191.1.137:59158 - "POST /pedidos/bulk HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59158 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60939 - "GET /pedidos/mis-pedidos HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59832 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59832 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62404 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61147 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57967 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60815 - "POST /pedidos/3/cotizaciones HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60815 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61001 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65346 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59431 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49811 - "POST /pedidos/5/cotizaciones HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49811 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60173 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56038 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63920 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63199 - "POST /pedidos/4/cotizaciones HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63199 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61702 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52150 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62007 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55060 - "POST /pedidos/6/cotizaciones HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55060 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49590 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56097 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60535 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60535 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60535 - "GET /pedidos/pendientes-aprobacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59129 - "PUT /pedidos/3/aprobar HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59129 - "GET /pedidos/pendientes-aprobacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57543 - "PUT /pedidos/5/aprobar HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57543 - "GET /pedidos/pendientes-aprobacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57543 - "PUT /pedidos/6/aprobar HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57543 - "GET /pedidos/pendientes-aprobacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57543 - "PUT /pedidos/4/aprobar HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57543 - "GET /pedidos/pendientes-aprobacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64300 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64300 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62142 - "GET /pedidos/mis-pedidos HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65182 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65182 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65528 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61242 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57735 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63712 - "POST /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63712 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63854 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50775 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49949 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49360 - "GET /cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57926 - "GET /assets/index-CBkm_c1J.js HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:64084 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64084 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62245 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58517 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54934 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61807 - "GET /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61299 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57991 - "POST /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57991 - "GET /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50214 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58784 - "POST /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58784 - "GET /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63053 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56930 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56640 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60870 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65240 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59297 - "GET /cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59297 - "GET /assets/index-t4c85LxF.js HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54448 - "GET /assets/index-CibkuwGd.css HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59297 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54448 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52715 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49307 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62297 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62297 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50040 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49425 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54124 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57998 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57998 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59493 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56934 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53373 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53449 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53449 - "GET /pedidos/pendientes-aprobacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53449 - "GET /gastos/reporte?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50090 - "GET /movimientos/salidas?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49477 - "GET /pedidos/pendientes-aprobacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49477 - "GET /gastos/reporte?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49477 - "GET /pedidos/pendientes-aprobacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49477 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49477 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49443 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59302 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51405 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63554 - "PUT /pedidos/1/recibir HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63554 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50130 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55418 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59662 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59662 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62783 - "GET /movimientos/salidas?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57195 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50449 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61046 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51194 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61046 - "GET /usuarios/me HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50449 - "GET /usuarios/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56568 - "GET /usuarios HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56568 - "GET /assets/index-mDbmCCJe.js HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52974 - "GET /assets/index-CibkuwGd.css HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52974 - "GET /usuarios/me HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56568 - "GET /usuarios/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56568 - "GET /usuarios HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:52974 - "GET /usuarios/me HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56568 - "GET /usuarios/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60750 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60750 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52834 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61687 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63727 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61687 - "GET /usuarios/me HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63727 - "GET /usuarios/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64148 - "GET /usuarios HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:53172 - "GET /assets/index-CibkuwGd.css HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:64148 - "GET /assets/index-mDbmCCJe.js HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:53172 - "GET /usuarios/me HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64148 - "GET /usuarios/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55116 - "GET /usuarios HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:60014 - "GET /usuarios/me HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55116 - "GET /usuarios/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54301 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63883 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63804 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56106 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1588]
+=== Inicio Thu 10/29/2026  8:18:04.44 === 
+INFO:     Started server process [7872]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7872]
+=== Inicio Thu 10/29/2026 16:20:12.03 === 
+INFO:     Started server process [5040]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5040]
+=== Inicio Thu 10/29/2026 16:21:32.32 === 
+INFO:     Started server process [2852]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+=== Inicio Fri 10/30/2026  8:08:14.20 === 
+INFO:     Started server process [6300]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     140.191.1.137:57839 - "GET /login HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57839 - "GET /assets/index-CibkuwGd.css HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:59642 - "GET /assets/index-mDbmCCJe.js HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:59642 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57839 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59642 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52973 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55715 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51416 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50695 - "PUT /insumos/10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50695 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50695 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58896 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61729 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63494 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49581 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56651 - "PUT /insumos/10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56651 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56651 - "GET /usuarios/supervisores HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54518 - "GET /usuarios/supervisores HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52956 - "PUT /insumos/14 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52956 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61239 - "GET /usuarios/supervisores HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59210 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63498 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51484 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64728 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64728 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62566 - "PUT /insumos/25 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62566 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51909 - "PUT /insumos/27 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51909 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51909 - "PUT /insumos/25 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51909 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58766 - "PUT /insumos/26 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58766 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65075 - "PUT /insumos/28 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65075 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50232 - "PUT /insumos/28 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50232 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60238 - "PUT /insumos/29 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60238 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53441 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53441 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54067 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56802 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58913 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57629 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57629 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64108 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61477 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55250 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59015 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59015 - "GET /gastos/reporte?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59015 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55250 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64108 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61477 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56659 - "GET /cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56659 - "GET /assets/index-CuSeauHB.js HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56604 - "GET /assets/index-Pj9gkaVU.css HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65523 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56604 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56659 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60059 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54111 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65523 - "GET /usuarios/me HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54111 - "GET /usuarios/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54111 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65523 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56604 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60059 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60059 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50307 - "GET /catalogo HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50307 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54330 - "GET /usuarios HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54949 - "GET /assets/index-Pj9gkaVU.css HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:54330 - "GET /assets/index-CuSeauHB.js HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:54949 - "GET /usuarios/me HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54330 - "GET /usuarios/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54949 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65395 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54330 - "GET /categorias/ HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:63921 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56173 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57889 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65445 - "PUT /insumos/3 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65445 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64830 - "PUT /insumos/25 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64830 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50548 - "PUT /insumos/25 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50548 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57735 - "PUT /insumos/41 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57735 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54087 - "GET /categorias/ HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:63865 - "GET /catalogo HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:63865 - "GET /assets/index-CuSeauHB.js HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:52449 - "GET /assets/index-Pj9gkaVU.css HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:52449 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63865 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52449 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49735 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53976 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6300]
+=== Inicio Fri 10/30/2026 14:06:37.39 === 
+INFO:     Started server process [6372]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+[migraciones] Backup creado: ./panol.backup-20261030-140659.db
+[migraciones] Columna items.alicuota_iva agregada
+[migraciones] Categorías cargadas: 12
+INFO:     140.191.1.137:53270 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53270 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60829 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58115 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62558 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58115 - "GET /gastos/reporte?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58115 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53746 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54816 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50030 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50030 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50030 - "GET /movimientos/salidas?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55220 - "GET /categorias/ HTTP/1.1" 401 Unauthorized
+INFO:     140.191.1.137:54217 - "GET /catalogo HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54217 - "GET /assets/index-BajwT11Q.js HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53930 - "GET /assets/index-Pj9gkaVU.css HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53930 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54217 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53930 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50298 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58361 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53301 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60471 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55438 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55438 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60471 - "GET /gastos/reporte?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55438 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58361 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60471 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50298 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53301 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63845 - "GET /cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58828 - "GET /assets/index-Pj9gkaVU.css HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:63845 - "GET /assets/index-BajwT11Q.js HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:58828 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65136 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63845 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62081 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53896 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57371 - "GET /cotizacion HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:53649 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55866 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58041 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59219 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57371 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59219 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57371 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50376 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53786 - "POST /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53786 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53786 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54083 - "PUT /categorias/13 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54083 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54083 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60486 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57939 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59147 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60486 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60554 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54609 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54609 - "GET /cotizacion HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:54609 - "GET /assets/index-BajwT11Q.js HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:60554 - "GET /assets/index-Pj9gkaVU.css HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:59147 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60554 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60486 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57939 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54609 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57939 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54609 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64630 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64630 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49338 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49338 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59958 - "DELETE /insumos/31 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59958 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59958 - "DELETE /insumos/32 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59958 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57926 - "PUT /insumos/42 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57926 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59837 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51993 - "GET /movimientos/salidas?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63331 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51993 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62243 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57281 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60041 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62243 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57281 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57281 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60041 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63331 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62243 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51993 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54706 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49936 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59101 - "PUT /insumos/17 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59101 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52047 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52047 - "POST /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52047 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52047 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52353 - "GET /catalogo HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:52353 - "GET /assets/index-Pj9gkaVU.css HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:49789 - "GET /assets/index-BajwT11Q.js HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:52353 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49789 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49789 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59064 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59064 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49454 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49454 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49187 - "PUT /insumos/44 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49187 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62737 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62737 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49334 - "PUT /insumos/44 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49334 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49334 - "PUT /insumos/45 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49334 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63837 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63837 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51170 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51170 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58561 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62157 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63998 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51456 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60153 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61828 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64216 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63268 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63268 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58137 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58137 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60474 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60474 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65107 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:65107 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50923 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50923 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52538 - "GET /movimientos/salidas?anio=2026&mes=10 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58643 - "DELETE /insumos/6 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58643 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54704 - "DELETE /insumos/5 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54704 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52660 - "PUT /insumos/7 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52660 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55889 - "PUT /insumos/7 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55889 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64632 - "PUT /insumos/53 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64632 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63360 - "PUT /insumos/52 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63360 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63360 - "PUT /insumos/52 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63360 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63360 - "PUT /insumos/51 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63360 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63360 - "PUT /insumos/50 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63360 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50347 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50347 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64191 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64191 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53423 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53423 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63459 - "PUT /insumos/56 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63459 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51052 - "PUT /insumos/54 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51052 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53206 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53206 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62216 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62216 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64897 - "PUT /insumos/58 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64897 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55132 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55132 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54545 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54545 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49191 - "POST /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49191 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52915 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63411 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49799 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51418 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56100 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55548 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6372]
+=== Inicio Mon 11/02/2026  8:02:23.01 === 
+INFO:     Started server process [9376]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     140.191.1.137:50356 - "GET /login HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54164 - "GET /assets/index-Pj9gkaVU.css HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:50356 - "GET /assets/index-BajwT11Q.js HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:50356 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50356 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60115 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59486 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54164 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56875 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59486 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56875 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9376]
+=== Inicio Tue 11/03/2026  7:53:29.04 === 
+INFO:     Started server process [6276]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     140.191.1.137:50007 - "GET /login HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:58729 - "GET /assets/index-Pj9gkaVU.css HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:50007 - "GET /assets/index-BajwT11Q.js HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:50007 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58729 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64225 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60726 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50007 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54129 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50007 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60726 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50007 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59793 - "GET /movimientos/salidas?anio=2026&mes=11 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55686 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62728 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56600 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52206 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59000 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6276]
+=== Inicio Wed 11/04/2026  7:45:22.93 === 
+INFO:     Started server process [6380]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6380]
+=== Inicio Thu 11/05/2026  7:54:07.61 === 
+INFO:     Started server process [6364]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     140.191.1.137:51277 - "GET /login HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51277 - "GET /assets/index-0pwdQpRA.js HTTP/1.1" 200 OK
+INFO:     140.191.1.137:59214 - "GET /assets/index-B4Q7-yBS.css HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61987 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61389 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:62784 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49814 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61774 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57633 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57633 - "GET /servicios-externos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57633 - "GET /sierras/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51048 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52653 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51220 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:54828 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49747 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60151 - "GET /login HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:60151 - "GET /assets/index-0pwdQpRA.js HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:49511 - "GET /assets/index-B4Q7-yBS.css HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:60151 - "POST /token HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60151 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49998 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56565 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49511 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64507 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:64507 - "GET /servicios-externos/ HTTP/1.1" 304 Not Modified
+=== Detenido Fri 11/06/2026 10:25:56.49 (codigo 1) === 
+=== Inicio Fri 11/06/2026 10:27:33.76 === 
+INFO:     Started server process [13152]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     140.191.1.137:49747 - "GET /servicios-externos HTTP/1.1" 200 OK
+INFO:     140.191.1.137:49747 - "GET /assets/index-0pwdQpRA.js HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:58799 - "GET /assets/index-B4Q7-yBS.css HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:58799 - "GET /servicios-externos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58799 - "GET /sierras/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58799 - "PUT /sierras/550 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58799 - "PUT /sierras/550 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/550 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/550 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/550 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/550 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/550 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/550 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/550 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/550 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/600 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/600 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/600 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/600 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/600 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/600 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/600 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/600 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/600 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/600 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/600 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/600 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/600 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/600 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/550 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/550 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/550 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/550 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/550 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/550 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/550 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "PUT /sierras/550 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58842 - "GET /servicios-externos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:61433 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:58731 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55261 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55793 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52664 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55793 - "GET /insumos/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:52664 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50642 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55574 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55311 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56346 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57691 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57691 - "GET /gastos/reporte?anio=2026&mes=11 HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56346 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55311 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:56346 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55574 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:57691 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50642 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63251 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51617 - "GET /ordenes-compra/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51236 - "GET /stock/alertas HTTP/1.1" 200 OK
+INFO:     140.191.1.137:63530 - "GET /pedidos/pendientes-cotizacion HTTP/1.1" 200 OK
+INFO:     140.191.1.137:60254 - "GET /pedidos/aprobados HTTP/1.1" 200 OK
+INFO:     140.191.1.137:50889 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:51810 - "GET /pedidos/historial HTTP/1.1" 200 OK
+INFO:     140.191.1.137:53314 - "GET /categorias/ HTTP/1.1" 200 OK
+INFO:     140.191.1.137:55757 - "GET /gastos/reporte?anio=2026&mes=11 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [13152]
+=== Inicio Fri 11/06/2026 13:30:29.61 === 
+INFO:     Started server process [8712]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8712]
+=== Inicio Tue 11/10/2026 11:31:27.32 === 
+INFO:     Started server process [6384]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6384]
+=== Inicio Wed 11/11/2026  8:20:14.49 === 
+INFO:     Started server process [6476]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     140.191.1.137:55938 - "GET /login HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:55938 - "GET /assets/index-0pwdQpRA.js HTTP/1.1" 304 Not Modified
+INFO:     140.191.1.137:62128 - "GET /assets/index-B4Q7-yBS.css HTTP/1.1" 304 Not Modified
+=== Inicio Wed 11/11/2026 14:40:52.38 === 
+INFO:     Started server process [6288]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6288]
+=== Inicio Wed 11/11/2026 23:31:49.52 === 
+INFO:     Started server process [3968]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3968]
+=== Inicio Wed 11/11/2026 23:33:04.83 === 
+INFO:     Started server process [1716]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)

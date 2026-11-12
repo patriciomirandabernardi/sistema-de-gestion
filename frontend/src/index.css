@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Mismo fondo que los paneles: evita el destello blanco al cambiar de pantalla */
+html, body {
+  @apply bg-slate-100;
+}
